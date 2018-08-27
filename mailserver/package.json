@@ -1,0 +1,19 @@
+{
+  "name": "mailserver",
+  "version": "1.0.0",
+  "description": "sends a mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "mail",
+    "send"
+  ],
+  "author": "mahikanthnag",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.6.8"
+  }
+}

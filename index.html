@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Mahikanth Nag</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="./assets/css/main.css" />
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./angular.min.js"></script>
+	<script src="./app.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.6.1/angular-messages.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+	<style>
+		.img {
+			position: relative;
+			float: left;
+			width: 100px;
+			height: 100px;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		/* Style the topnav links */
+		.header a {
+			float: left;
+			display: block;
+			color: #382a2a;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		/* Change color on hover */
+		.header a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		#curve {
+			border-radius: 25px;
+		}
+
+		#hide {
+
+			background: transparent;
+			border: none !important;
+			font-size: 0;
+		}
+	</style>
+
+</head>
+
+<body class="is-preload" ng-app="myApp" ng-controller="myCtrl">
+
+	<!-- Header -->
+	<div id="header">
+
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="./images/ME.png" alt="" /></a>
+			<h1><strong>I am Mahikanth Nag</strong>, Interested in building scalable web applications, pet projects and exploring
+				different technologies for the sole aim of making human tasks much simpler..</h1>
+		</div>
+		<!-- <a href="https://docs.wixstatic.com/ugd/de7060_b81850e8e4974d2db4bf326d2583d5ac.pdf" target="_blank" data-type="document"
+		 role="button" id="comp-it437nmblink" class="g-transparent-a style-jkzrnwrklink"><span id="comp-it437nmblabel" class="style-jkzrnwrklabel">DOWNLOAD
+				MY FULL RESUME</span></a> -->
+		<button id="curve" type="button" class="btn btn-warning" target="_blank" onclick="window.open('./MahikanthNagTechnical.pdf', '_blank'); return false;">DOWNLOAD
+			MY FULL RESUME</button>
+	</div>
+
+	<!-- Main -->
+	<div id="main">
+		<section id="content1">
+			<div class="header" style="position: absolute; top: 10px; right: 100px;">
+				<b><a href="./index.html">Home</a> </b>
+				<b><a href="./experience.html">Experience</a> </b>
+				<b><a href="./projects.html">Projects </a></b>
+				<b><a href="https://mahikanthnag.wordpress.com">Writings </a></b>
+			</div>
+			<!-- One -->
+			<div>
+				<section id="one">
+					<header class="major">
+						<h2>Why am I Passionate about Computer Science ?!!</h2>
+					</header>
+					<br>
+					<p style="font-family: Roboto">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWhenever I play around
+						with Google Assistant or an e-commerce site suggests me products I like, my amazement is always out of bounds. Let
+						me explain it further: My early years of graduation, engendered in me the passion for Artificial Intelligence and Machine
+						Learning. Hardly much had been discussed about it in our under graduation except for the basics. So, I developed the
+						zeal in me to pursue masters in this field of technology. I went through videos of Professor Patrick Winston (MIT),
+						and his work in this field not only amazed me but also elucidated the kind of impact Artificial Intelligence will have
+						in day to day lifestyle of humans probably in the near future. During and after graduation, I would thus like to contribute
+						to research in the same domain.
+					</p>
+					<div ng-if="hide==false">
+
+						<span id="text" style="font-family: Roboto">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRecently
+							I worked on a very simple Artificial Intelligence project just to get the taste of it. It is a Facebook Messenger
+							Bot named “Git Talks”, which texts me details about any changes made on my GitHub account. I can also manually type
+							questions asking about my profile and get immediate responses!! I always have this feeling that there is nothing that
+							brings more happiness to me than seeing my program work. <br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp“The
+							simpler it makes, the better it helps” is something I have been following whenever I brainstorm ideas for a good project.
+							Most of the projects I did in my bachelors have not produced extraordinary results but surely changed, rather simplified,
+							the way things can be done. One such example would be a chrome extension that I developed named “PCShot”. We all want
+							to access anything from anywhere in easy steps with a few clicks. Now, for a screenshot in PC to be accessed from
+							mobile involves quite a number of steps. But PCShot bypasses all of these in a single click. Clicking on this chrome
+							extension captures the webpage, and it sends it to the user's mobile device's gallery. All in one click!. Though this
+							extension is not yet in the store, I myself have used it several times while paying electricity, cooking gas and mobile
+							bills online where some transaction id is recommended to be noted. I just click on my PCShot and BOOM!. I need not
+							take down anything by hand.<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOne thing that
+							never fails astonishing me is the analogy of computer science to the real world things. For instance, it was the time
+							when I was learning types of memory in computer architecture that I was introduced to topics like Auxiliary memory,
+							Main memory, Cache memory. Thinking to one level above, it showed me how analogous it is to the functioning of our
+							brain as we try to recollect some incident. Scrupulous observation of how humans think by the researchers might have
+							brought this way of organization of memory in computers. It might sound naive but such simple analogies always remind
+							me that great ideas are reflections of daily life happenings provided we think a step above! This is just one of the
+							many analogies I have observed. Many such analogies helped me in understanding the subject to a few levels deeper
+							and also reinforced my teaching skills. <br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI
+							believe that I am capable of explaining technical concepts effectively to others. The base for this skill came from
+							my father, a great orator himself, who encouraged me to participate in different elocution competitions right from
+							my schooling. It powered itself further as I utilised every opportunity to share my knowledge with others not just
+							to whet my pedagogical skills but also because of the immense passion I have for the same. I was elated when asked
+							to take a few classes like web application development using Python, Android app development, interview preparation
+							techniques, etc., to my juniors at college. Teaching them made me feel contented because there is this mutual learning
+							happening when questions are raised to the words spoken by my understanding of a concept. Such a learning atmosphere
+							has pushed me further to think deeper.
+							<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI was the Google Student Ambassador and a
+							president of Google Developers Club from our college as a part of which I conducted 2-day workshop for our juniors
+							on Android App development. At the end of workshop, I made sure each student developed a simple application by connecting
+							their app to cloud. Being the head of our college's technical fest in my final year was another milestone in my learning
+							as it requires a lot of teamwork, patience and ability to manage multiple tasks ubiquitously. But things became more
+							convoluted as I have been simultaneously working as an intern. I had to spend at least 3-4 hours either in the morning
+							session or in the evening session apart from my 9-hour work at that company to ensure successful execution of events
+							on the day of fest. <br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMy communication skills
+							have always been forte in allowing people to understand me precisely what I meant. Being a non-native speaker of English,
+							I had to learn these skills the hard way. It was in my high school (9th grade) that I failed in English exam by 3
+							marks. I couldn’t take it when my teacher gave me pity marks just so that I can pass. It was then that I developed
+							passion and zeal to improve my English speaking ability. In our school, though there were strict rules for students
+							to speak only in English, it was hardly followed by students, including me, as we were more comfortable in our native
+							language. However, since my 9th grade, I have spent substantial time to improve my English and have thus become quite
+							proficient.
+							<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI am currently working as a Software Engineer
+							at Accolite Software India Pvt Ltd. for less than a year after completing 6 months of internship in the same. Accolite
+							helped me in whetting the quality of code which I write. Before joining Accolite, though I used to give importance
+							to the complexity of the solution, I neglected the coding conventions to some extent which must actually be followed
+							to develop a readable code. I could finally overcome this at my workplace. Mainly, when contributing to developing
+							a software, I learned how well a code should be written in a way so that it can be well maintained.<br>
+						</span>
+					</div>
+					<ul class="actions">
+						<li><a href="#" id="toggle" class="button" ng-click="load()">Read More</a></li>
+					</ul>
+				</section>
+			</div>
+			<br><br><br>
+			<!-- Two -->
+			<section id="two">
+				<h2><u>Recent Work</u></h2>
+				<br>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="./images/SDI.png" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Smart Drip Irrigation</h5>
+									<p class="card-text">
+										<font size="2">Automate the process of changing the gate valves through mobile app for effective watering of crops.</font>
+
+
+									</p>
+									<a style="float: right" target="_blank" href="https://github.com/MahikanthNag/SmartDripIrrigation" class="btn btn-primary">GitHub</a>
+									<a style="float: left" target="_blank" href="https://www.youtube.com/watch?v=AGdXgB1sops&t=1s" class="btn btn-primary">Prototype
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="./images/github.png" alt="Card image cap" height="200" width="5">
+								<div class="card-body">
+									<h5 class="card-title">Git Talks!</h5>
+									<p class="card-text">
+										<font size="2">Ask this Messenger Bot for any query like list of commits, followers etc. without opening github.</font>
+									</p>
+									<a style="float: right" target="_blank" href="https://github.com/MahikanthNag/GitTalks" class="btn btn-primary">GitHub</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="card" style="width: 18rem;">
+								<img class="card-img-top" src="./images/secret_santa.png" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Secret Santa</h5>
+									<p class="card-text">
+										<font size="2">This is a game generally played by corporate companies during the time of Christmas where each employee
+											will be santa for other employee and child of some other employee.</font>
+									</p>
+									<a style="float: right" target="_blank" href="https://github.com/MahikanthNag/secretsanta" class="btn btn-primary">GitHub</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6" style="padding-top: 17px">
+							<div class=" card" style="width: 18rem;">
+								<img class="card-img-top" src="./images/events_manager.png" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">Events Manager</h5>
+									<p class="card-text">
+										<font size="2">My university is using this application I developed to manage any events or seminars conducted by
+											different departments. Check it out!!</font>
+									</p>
+									<a style="float: right" target="_blank" href="https://github.com/MahikanthNag/eventsapp" class="btn btn-primary">GitHub</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<br>
+				<ul class="actions">
+					<li><a href="./projects.html" class="button">View All Projects</a></li>
+				</ul>
+			</section>
+			<br><br><br>
+			<!-- Three -->
+			<section id="three">
+				<h2>Message Me!</h2>
+				<p>Feel free to contact me through mail or call. Else simply drop a message in the section below for any suggestions
+					or queries. Will reply within 1 business day.</p>
+				<div class="row">
+					<div class="col-8 col-12-small">
+						<form method="post" action="#" id="contact-form">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+								<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+								<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+							</div>
+						</form>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" ng-click="sendMail()" /></li>
+						</ul>
+					</div>
+					<div class="col-4 col-12-small">
+						<ul class="labeled-icons">
+							<li>
+								<h3 class="icon fa-home"><span class="label">Address</span></h3>
+								1173, W 29<sup>th</sup> St.<br /> Los ANgeles, CA 90007<br /> United States
+							</li>
+							<li>
+								<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+								+1 (213) 258-7068
+							</li>
+							<li>
+								<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+								<a href="mailto:yalamart@usc.edu">yalamart@usc.edu</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- <div style="position:absolute; padding-left: 650px" ng-click="viewMessages();">
+				<div id="hide">
+					<button>View My Messages</button>
+				</div>
+				<div ng-show="!hideTextField">
+					<input id="code" />
+					<button ng-click="validate()">submit</button>
+				</div>
+				<div>
+					<span ng-repeat="m in messages">{{m.name}}&nbsp&nbsp&nbsp&nbsp{{m.email}}&nbsp&nbsp&nbsp&nbsp{{m.message}}<br><br></span>
+				</div>
+
+			</div> -->
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a target="_blank" href="https://twitter.com/MahikanthNag" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a target="_blank" href="https://github.com/MahikanthNag" class="icon fa-github"><span class="label">Github</span></a></li>
+				<li><a target="_blank" href="https://mahikanthnag.wordpress.com" class="icon fa fa-wordpress"><span class="label">WordPress</span></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/mahikanth-nag-yalamarthi-797158b3/" class="icon fa-linkedin"><span
+						 class="label">Linkedin</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; MahikanthNag 2018</li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
